@@ -1,0 +1,69 @@
+data:
+  m_def: fairmat_network_projects.schema_packages.schema_package.NetworkProject
+  code: NP-001
+  short_name: NetProj
+  complete_name: FAIRmat Network Projects
+  project_type: Research Unit
+  has_inf_project: true
+  spokesperson: Jane Doe
+  main_contact_person_for_data_management: Jane Doe
+  role_of_contact_person: Data steward
+  email_of_contact_person: jane@example.org
+  applicant_institutes:
+    - Example Institute
+  gepris_url: https://example.org/gepris
+  webpage: https://example.org/project
+  start_date: 2026-01-01
+  end_date: 2028-12-31
+  current_funding_phase: 1
+  number_of_pis: 2
+  number_of_researchers: 15
+  number_of_data_stewards: 1
+  involved_fairmat_pis:
+    - https://nomad.example.org/id/pi-1
+  research_landscape:
+    research_topics:
+      - Data-centric network research
+    material_systems:
+      - Oxides
+      - Perovskites
+    research_methods:
+      - DFT
+      - Spectroscopy
+    focus_description: Integrated computational and experimental workflows.
+    subprojects:
+      - title: SP1
+        description: First subproject
+        research_mode: Experimental
+        data_driven_ai_based: false
+  rdm_landscape:
+    data_storage:
+      - 2- HPC storage
+      - 5- Other
+    data_storage_other: Institutional long-term archive
+    metadata_documentation:
+      - 2- Electronic lab notebooks
+      - 4- Spreadsheets
+    metadata_documentation_other: Internal metadata templates
+    existing_standards: NeXus and CIF
+    research_data:
+      - name: DFT catalyst simulations
+        data_type: DFT calculations
+        file_format:
+          - HDF5
+        volume: 10-100 GB
+        software_instruments:
+          - VASP
+          - Bruker D8 Advance
+  nomad_interests:
+    areas_of_interest:
+      - Integration of NOMAD with existing CRC infrastructure
+      - Publication of FAIR datasets
+    additional_areas_of_interest:
+      - Domain-specific ontology alignment for CRC reporting
+  engagement:
+    - title: Kickoff
+      start_date: 2026-03-10
+      end_date: 2026-03-10
+      activity_type: Meeting
+      notes: Kickoff meeting with project partners and FAIRmat contacts.

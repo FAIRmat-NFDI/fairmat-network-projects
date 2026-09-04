@@ -1,0 +1,35 @@
+{
+  "template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "commit": "b67d40d4d5d4be4a639baa56ecf9af41f1680830",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Ahmed E. Mansour",
+      "email": "amansour@physik.hu-berlin.de",
+      "github_username": "FAIRmat",
+      "plugin_name": "fairmat-network-projects",
+      "module_name": "fairmat_network_projects",
+      "short_description": "NOMAD plugin for managing network project information and tracking interactions and collaborations with FAIRmat and NOMAD.",
+      "version": "0.1.0",
+      "license": "Apache-2.0",
+      "include_schema_package": true,
+      "include_normalizer": false,
+      "include_parser": false,
+      "include_app": true,
+      "include_example_uploads": false,
+      "include_action": false,
+      "include_api": false,
+      "include_north_tools": false,
+      "north_tool_name": "my_north_tool",
+      "include_dashboard": false,
+      "include_citation_file": true,
+      "_copy_without_render": [
+        "*.html",
+        "*.png"
+      ],
+      "_template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+      "_commit": "b67d40d4d5d4be4a639baa56ecf9af41f1680830"
+    }
+  },
+  "directory": null
+}
