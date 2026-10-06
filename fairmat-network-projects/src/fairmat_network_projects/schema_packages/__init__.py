@@ -12,6 +12,6 @@ class NewSchemaPackageEntryPoint(SchemaPackageEntryPoint):
 
 
 schema_package_entry_point = NewSchemaPackageEntryPoint(
-    name='NewSchemaPackage',
-    description='New schema package entry point configuration.',
+    name='FAIRmatNetworkProjectsSchemaPackage',
+    description='Schema package for FAIRmat network projects.',
 )
